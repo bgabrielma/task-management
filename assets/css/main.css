@@ -1,0 +1,30 @@
+/*! bgabrielma| MIT License | git.io/bgabrielma */
+
+/* ==========================================================================
+CSS for this App - task-management
+========================================================================== */
+
+/**
+
+/** Import Montserrat webfont */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/** Setting primordial config */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  background-color: #fff;
+  line-height: 1.5;
+  color: #262626;
+}
