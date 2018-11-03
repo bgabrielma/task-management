@@ -7,9 +7,10 @@ CSS for this App - task-management
 /**
 
 /** Import Montserrat webfont */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 /** Setting primordial config */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -17,13 +18,17 @@ CSS for this App - task-management
 }
 
 html, body {
+  height: 100%;
   font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  min-height: 100%;
   font-size: 17px;
   background-color: #fff;
   line-height: 1.5;
   color: #262626;
+}
+
+main {
+  min-height: 100vh;
 }
