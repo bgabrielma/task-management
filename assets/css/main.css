@@ -45,6 +45,6 @@ main {
 }
 
 .card-margin {
-  margin-right: 25px;
+  margin-right: 60px !important;
   padding: 5px;
 }
