@@ -12,7 +12,7 @@ CSS for this App - task-management
 /** Setting primordial config */
 
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0px;
   box-sizing: border-box;
 }
