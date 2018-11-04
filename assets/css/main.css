@@ -38,15 +38,21 @@ main {
   margin-right: 30px;
 }
 
+/** Setting shadow values for custom card */
+
 .shadow-card {
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.40);
   moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.40);
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.40);
 }
 
+/** Updating card with no border */
+
 .card-non-border {
   border: none !important;
 }
+
+/** Define custom margin */
 
 .card-margin {
   margin-right: 60px !important;
