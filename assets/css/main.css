@@ -12,7 +12,7 @@ CSS for this App - task-management
 /** Setting primordial config */
 
 * {
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   box-sizing: border-box;
 }
@@ -26,7 +26,8 @@ body {
   font-size: 17px;
   background-color: #EEEEEE;
   line-height: 1.5;
-  color: #262626;
+  color: #ffff;
+  background: #3395ff;
 }
 
 main {
